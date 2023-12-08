@@ -233,6 +233,19 @@ ELF2UF2Build/fast:
 	$(MAKE) $(MAKESILENT) -f button_test/CMakeFiles/ELF2UF2Build.dir/build.make button_test/CMakeFiles/ELF2UF2Build.dir/build
 .PHONY : ELF2UF2Build/fast
 
+#=============================================================================
+# Target rules for targets named analog_io
+
+# Build rule for target.
+analog_io: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 analog_io
+.PHONY : analog_io
+
+# fast build rule for target.
+analog_io/fast:
+	$(MAKE) $(MAKESILENT) -f analog_io/CMakeFiles/analog_io.dir/build.make analog_io/CMakeFiles/analog_io.dir/build
+.PHONY : analog_io/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -248,6 +261,7 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... tinyusb_pico_pio_usb_usb_rx_pio_h"
 	@echo "... tinyusb_pico_pio_usb_usb_tx_pio_h"
+	@echo "... analog_io"
 	@echo "... bs2_default"
 	@echo "... button_test"
 .PHONY : help

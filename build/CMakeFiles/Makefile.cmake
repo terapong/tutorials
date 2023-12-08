@@ -111,6 +111,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/toto/pico-sdk/tools/FindELF2UF2.cmake"
   "/home/toto/pico-sdk/tools/FindPioasm.cmake"
   "../CMakeLists.txt"
+  "../analog_io/CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeASMCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
@@ -236,6 +237,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
   "button_test/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "button_test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "analog_io/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -249,4 +251,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir/DependInfo.cmake"
   "button_test/CMakeFiles/button_test.dir/DependInfo.cmake"
   "button_test/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
+  "analog_io/CMakeFiles/analog_io.dir/DependInfo.cmake"
   )

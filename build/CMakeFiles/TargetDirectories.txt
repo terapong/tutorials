@@ -171,3 +171,6 @@
 /home/toto/ying/tutorials/build/button_test/CMakeFiles/ELF2UF2Build.dir
 /home/toto/ying/tutorials/build/button_test/CMakeFiles/edit_cache.dir
 /home/toto/ying/tutorials/build/button_test/CMakeFiles/rebuild_cache.dir
+/home/toto/ying/tutorials/build/analog_io/CMakeFiles/analog_io.dir
+/home/toto/ying/tutorials/build/analog_io/CMakeFiles/edit_cache.dir
+/home/toto/ying/tutorials/build/analog_io/CMakeFiles/rebuild_cache.dir
