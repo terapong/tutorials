@@ -1,0 +1,13 @@
+# Target labels
+ PioasmBuild
+# Source files and their labels
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild.rule
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/CMakeFiles/PioasmBuild-complete.rule
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-build.rule
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure.rule
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-download.rule
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-install.rule
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir.rule
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch.rule
+/home/toto/ying/tutorials/build/pico-sdk/src/rp2_common/tinyusb/pioasm/src/PioasmBuild-stamp/PioasmBuild-update.rule

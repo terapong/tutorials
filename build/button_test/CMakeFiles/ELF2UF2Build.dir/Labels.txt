@@ -1,0 +1,13 @@
+# Target labels
+ ELF2UF2Build
+# Source files and their labels
+/home/toto/ying/tutorials/build/button_test/CMakeFiles/ELF2UF2Build
+/home/toto/ying/tutorials/build/button_test/CMakeFiles/ELF2UF2Build.rule
+/home/toto/ying/tutorials/build/button_test/CMakeFiles/ELF2UF2Build-complete.rule
+/home/toto/ying/tutorials/build/button_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule
+/home/toto/ying/tutorials/build/button_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule
+/home/toto/ying/tutorials/build/button_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule
+/home/toto/ying/tutorials/build/button_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule
+/home/toto/ying/tutorials/build/button_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule
+/home/toto/ying/tutorials/build/button_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule
+/home/toto/ying/tutorials/build/button_test/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule
