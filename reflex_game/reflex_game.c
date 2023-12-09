@@ -20,7 +20,7 @@ int main() {
     printf("Reflex Game!!");
 
     struct repeating_timer timer;
-    add_repeating_timer_ms(100, repeating_timer_callback, NULL, &timer);
+    add_repeating_timer_ms(1000, repeating_timer_callback, NULL, &timer);
 
     int score = 0;
     int led_index = 0;
@@ -61,6 +61,8 @@ int main() {
             score = 0;
         }
         
+        printf("You score is %d", score);
+
         while(!timer_fired) {
             tight_loop_contents();
         }

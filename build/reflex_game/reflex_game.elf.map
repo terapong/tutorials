@@ -1149,9 +1149,9 @@ Discarded input sections
  .comment       0x0000000000000000       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccqpXvJf.o
- .data          0x0000000000000000        0x0 /tmp/ccqpXvJf.o
- .bss           0x0000000000000000        0x0 /tmp/ccqpXvJf.o
+ .text          0x0000000000000000        0x0 /tmp/cc7H8KYF.o
+ .data          0x0000000000000000        0x0 /tmp/cc7H8KYF.o
+ .bss           0x0000000000000000        0x0 /tmp/cc7H8KYF.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1399,11 +1399,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccqpXvJf.o
+ .boot2         0x0000000010000000      0x100 /tmp/cc7H8KYF.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x6c80
+.text           0x0000000010000100     0x6c98
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1468,583 +1468,584 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000010000354       0x10 CMakeFiles/reflex_game.dir/reflex_game.c.obj
                 0x0000000010000354                repeating_timer_callback
  .text.startup.main
-                0x0000000010000364      0x11c CMakeFiles/reflex_game.dir/reflex_game.c.obj
+                0x0000000010000364      0x130 CMakeFiles/reflex_game.dir/reflex_game.c.obj
                 0x0000000010000364                main
  .text.gpio_set_pulls
-                0x0000000010000480       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000480                gpio_set_pulls
+                0x0000000010000494       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000494                gpio_set_pulls
  .text.gpio_init
-                0x00000000100004b0       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x00000000100004b0                gpio_init
+                0x00000000100004c4       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000000100004c4                gpio_init
  .text.running_on_fpga
-                0x00000000100004ec       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x00000000100004ec                running_on_fpga
+                0x0000000010000500       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000500                running_on_fpga
  .text.hw_claim_or_assert
-                0x00000000100004fc       0x44 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100004fc                hw_claim_or_assert
+                0x0000000010000510       0x44 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000510                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x0000000010000540       0x9c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000540                hw_claim_unused_from_range
+                0x0000000010000554       0x9c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000554                hw_claim_unused_from_range
  .text.spin_locks_reset
-                0x00000000100005dc       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100005dc                spin_locks_reset
+                0x00000000100005f0       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x00000000100005f0                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x00000000100005f8       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100005f8                next_striped_spin_lock_num
+                0x000000001000060c       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x000000001000060c                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x0000000010000610       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000610                spin_lock_claim_unused
+                0x0000000010000624       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000624                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x0000000010000630       0x24 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000630                irq_set_enabled
+                0x0000000010000644       0x24 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000644                irq_set_enabled
  .text.irq_set_pending
-                0x0000000010000654       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000654                irq_set_pending
+                0x0000000010000668       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000668                irq_set_pending
  .text.irq_has_shared_handler
-                0x0000000010000664       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000664                irq_has_shared_handler
+                0x0000000010000678       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000678                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x0000000010000690       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000690                irq_get_vtable_handler
+                0x00000000100006a4       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100006a4                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x00000000100006a0       0x54 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100006a0                irq_set_exclusive_handler
+                0x00000000100006b4       0x54 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100006b4                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x00000000100006f4      0x1e8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100006f4                irq_add_shared_handler
+                0x0000000010000708      0x1e8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000708                irq_add_shared_handler
  .text.irq_remove_handler
-                0x00000000100008dc      0x1b0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100008dc                irq_remove_handler
+                0x00000000100008f0      0x1b0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100008f0                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010000a8c       0xb4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000a8c                irq_add_tail_to_free_list
+                0x0000000010000aa0       0xb4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000aa0                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010000b40       0x24 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000b40                irq_init_priorities
+                0x0000000010000b54       0x24 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000b54                irq_init_priorities
  .text.user_irq_claim_unused
-                0x0000000010000b64       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000b64                user_irq_claim_unused
+                0x0000000010000b78       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000b78                user_irq_claim_unused
  .text.lock_init
-                0x0000000010000b8c       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010000b8c                lock_init
+                0x0000000010000ba0       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010000ba0                lock_init
  .text.mutex_init
-                0x0000000010000b9c       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010000b9c                mutex_init
+                0x0000000010000bb0       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000bb0                mutex_init
  .text.recursive_mutex_init
-                0x0000000010000bb8       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010000bb8                recursive_mutex_init
+                0x0000000010000bcc       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010000bcc                recursive_mutex_init
  .text.critical_section_init
-                0x0000000010000bd4       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x0000000010000bd4                critical_section_init
+                0x0000000010000be8       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010000be8                critical_section_init
  .text.critical_section_init_with_lock_num
-                0x0000000010000bf4       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x0000000010000bf4                critical_section_init_with_lock_num
+                0x0000000010000c08       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010000c08                critical_section_init_with_lock_num
  .text.timer_pool_entry_comparator
-                0x0000000010000c08       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000c08                timer_pool_entry_comparator
+                0x0000000010000c1c       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000c1c                timer_pool_entry_comparator
  .text.repeating_timer_callback
-                0x0000000010000c3c       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000c50       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
  .text.sleep_until_callback
-                0x0000000010000c58       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000c6c       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x0000000010000c88      0x100 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000c9c      0x100 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010000d88      0x1bc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000d9c      0x1bc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000f44       0x6c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000f44                alarm_pool_init_default
+                0x0000000010000f58       0x6c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000f58                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010000fb0        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000fb0                alarm_pool_get_default
+                0x0000000010000fc4        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000fc4                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x0000000010000fb8      0x178 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000fb8                alarm_pool_add_alarm_at
+                0x0000000010000fcc      0x178 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000fcc                alarm_pool_add_alarm_at
  .text.alarm_pool_core_num
-                0x0000000010001130        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001130                alarm_pool_core_num
+                0x0000000010001144        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001144                alarm_pool_core_num
  .text.alarm_pool_add_repeating_timer_us
-                0x0000000010001134      0x208 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001134                alarm_pool_add_repeating_timer_us
+                0x0000000010001148      0x208 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001148                alarm_pool_add_repeating_timer_us
  .text.sleep_until
-                0x000000001000133c       0xc4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x000000001000133c                sleep_until
+                0x0000000010001350       0xc4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001350                sleep_until
  .text.sleep_ms
-                0x0000000010001400       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001400                sleep_ms
+                0x0000000010001414       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001414                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x0000000010001434       0xd4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001434                best_effort_wfe_or_timeout
+                0x0000000010001448       0xd4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001448                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x0000000010001508       0xbc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x000000001000151c       0xbc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x00000000100015c4       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100015c4                hardware_alarm_claim
+                0x00000000100015d8       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100015d8                hardware_alarm_claim
  .text.time_us_64
-                0x00000000100015dc       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100015dc                time_us_64
+                0x00000000100015f0       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100015f0                time_us_64
  .text.busy_wait_until
-                0x00000000100015f0       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100015f0                busy_wait_until
+                0x0000000010001604       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001604                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x0000000010001610       0x8c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001610                hardware_alarm_set_callback
+                0x0000000010001624       0x8c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001624                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x000000001000169c       0xd4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000169c                hardware_alarm_set_target
+                0x00000000100016b0       0xd4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100016b0                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010001770       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001770                hardware_alarm_cancel
+                0x0000000010001784       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001784                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x00000000100017ac       0x68 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100017c0       0x68 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010001814       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001814                ph_post_alloc_init
+                0x0000000010001828       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001828                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010001850       0x90 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001850                ph_merge_two_pass
+                0x0000000010001864       0x90 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001864                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x00000000100018e0      0x100 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100018f4      0x100 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x00000000100019e0      0x104 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100019e0                ph_remove_head
+                0x00000000100019f4      0x104 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100019f4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x0000000010001ae4       0x7c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001ae4                ph_remove_and_free_node
+                0x0000000010001af8       0x7c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001af8                ph_remove_and_free_node
  .text.clocks_init
-                0x0000000010001b60      0x2d0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001b60                clocks_init
+                0x0000000010001b74      0x2d0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001b74                clocks_init
  .text.pll_init
-                0x0000000010001e30       0xa0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001e30                pll_init
+                0x0000000010001e44       0xa0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001e44                pll_init
  .text.watchdog_start_tick
-                0x0000000010001ed0       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001ed0                watchdog_start_tick
+                0x0000000010001ee4       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001ee4                watchdog_start_tick
  .text.watchdog_reboot
-                0x0000000010001ee0       0x98 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010001ee0                watchdog_reboot
+                0x0000000010001ef4       0x98 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001ef4                watchdog_reboot
  .text.xosc_init
-                0x0000000010001f78       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x0000000010001f78                xosc_init
+                0x0000000010001f8c       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001f8c                xosc_init
  .text.runtime_init
-                0x0000000010001fa0       0xf0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001fa0                runtime_init
- .text._exit    0x0000000010002090        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002090                _exit
+                0x0000000010001fb4       0xf0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001fb4                runtime_init
+ .text._exit    0x00000000100020a4        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100020a4                _exit
  .text._gettimeofday
-                0x0000000010002094       0x40 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010002094                _gettimeofday
- .text.exit     0x00000000100020d4        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100020d4                exit
- .text.panic    0x00000000100020dc       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x00000000100020dc                panic
+                0x00000000100020a8       0x40 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100020a8                _gettimeofday
+ .text.exit     0x00000000100020e8        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100020e8                exit
+ .text.panic    0x00000000100020f0       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100020f0                panic
  .text.hard_assertion_failure
-                0x000000001000210c        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x000000001000210c                hard_assertion_failure
+                0x0000000010002120        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010002120                hard_assertion_failure
  .text._out_null
-                0x0000000010002118        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x000000001000212c        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x000000001000211c       0x9c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002130       0x9c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x00000000100021b8      0x1cc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100021cc      0x1cc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x0000000010002384       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002398       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x0000000010002394       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x00000000100023a4      0x44c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x00000000100027f0      0x398 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100023a8       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x00000000100023b8      0x44c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x0000000010002804      0x398 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000010002b88      0xb04 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002b9c      0xb04 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x000000001000368c       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x000000001000368c                vfctprintf
+                0x00000000100036a0       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100036a0                vfctprintf
  .text.weak_raw_vprintf
-                0x00000000100036ac       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x00000000100036ac                weak_raw_vprintf
- .text          0x00000000100036dc       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x00000000100036c0       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100036c0                weak_raw_vprintf
+ .text          0x00000000100036f0       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x00000000100036ec       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100036ec                rom_func_lookup
+                0x0000000010003700       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003700                rom_func_lookup
  .text.rom_data_lookup
-                0x00000000100036fc       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x00000000100036fc                rom_data_lookup
+                0x0000000010003710       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003710                rom_data_lookup
  .text.rom_funcs_lookup
-                0x000000001000370c       0x44 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x000000001000370c                rom_funcs_lookup
+                0x0000000010003720       0x44 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000000010003720                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x0000000010003750       0x50 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003750                __wrap___aeabi_idivmod
-                0x0000000010003750                divmod_s32s32
-                0x0000000010003750                div_s32s32
-                0x0000000010003750                __wrap___aeabi_idiv
-                0x0000000010003758                divmod_s32s32_unsafe
-                0x0000000010003784                divmod_s32s32_savestate
+                0x0000000010003764       0x50 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003764                __wrap___aeabi_idivmod
+                0x0000000010003764                divmod_s32s32
+                0x0000000010003764                div_s32s32
+                0x0000000010003764                __wrap___aeabi_idiv
+                0x000000001000376c                divmod_s32s32_unsafe
+                0x0000000010003798                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x00000000100037a0       0x4c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100037a0                __wrap___aeabi_uidiv
-                0x00000000100037a0                __wrap___aeabi_uidivmod
-                0x00000000100037a0                div_u32u32
-                0x00000000100037a0                divmod_u32u32
-                0x00000000100037a8                divmod_u32u32_unsafe
-                0x00000000100037d0                divmod_u32u32_savestate
+                0x00000000100037b4       0x4c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x00000000100037b4                __wrap___aeabi_uidiv
+                0x00000000100037b4                __wrap___aeabi_uidivmod
+                0x00000000100037b4                div_u32u32
+                0x00000000100037b4                divmod_u32u32
+                0x00000000100037bc                divmod_u32u32_unsafe
+                0x00000000100037e4                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x00000000100037ec      0x424 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100037ec                div_s64s64
-                0x00000000100037ec                divmod_s64s64
-                0x00000000100037ec                __wrap___aeabi_ldivmod
-                0x000000001000381c                div_u64u64
-                0x000000001000381c                divmod_u64u64
-                0x000000001000381c                __wrap___aeabi_uldivmod
-                0x000000001000382c                divmod_u64u64_savestate
-                0x000000001000384c                divmod_s64s64_unsafe
-                0x00000000100038d4                divmod_u64u64_unsafe
+                0x0000000010003800      0x424 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003800                div_s64s64
+                0x0000000010003800                divmod_s64s64
+                0x0000000010003800                __wrap___aeabi_ldivmod
+                0x0000000010003830                div_u64u64
+                0x0000000010003830                divmod_u64u64
+                0x0000000010003830                __wrap___aeabi_uldivmod
+                0x0000000010003840                divmod_u64u64_savestate
+                0x0000000010003860                divmod_s64s64_unsafe
+                0x00000000100038e8                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x0000000010003c10       0x80 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c10                __wrap___aeabi_drsub
-                0x0000000010003c16                __wrap___aeabi_dsub
-                0x0000000010003c28                __wrap___aeabi_dadd
-                0x0000000010003c3a                __wrap___aeabi_ddiv
-                0x0000000010003c76                __wrap___aeabi_dmul
+                0x0000000010003c24       0x80 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003c24                __wrap___aeabi_drsub
+                0x0000000010003c2a                __wrap___aeabi_dsub
+                0x0000000010003c3c                __wrap___aeabi_dadd
+                0x0000000010003c4e                __wrap___aeabi_ddiv
+                0x0000000010003c8a                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010003c90       0x6c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c90                __wrap___aeabi_cdrcmple
-                0x0000000010003ca0                __wrap___aeabi_cdcmple
-                0x0000000010003ca0                __wrap___aeabi_cdcmpeq
+                0x0000000010003ca4       0x6c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003ca4                __wrap___aeabi_cdrcmple
+                0x0000000010003cb4                __wrap___aeabi_cdcmple
+                0x0000000010003cb4                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010003cfc        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003cfc                __wrap___aeabi_dcmplt
+                0x0000000010003d10        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003d10                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010003d08       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d08                __wrap___aeabi_dcmple
+                0x0000000010003d1c       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003d1c                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010003d18       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d18                __wrap___aeabi_dcmpge
+                0x0000000010003d2c       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003d2c                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010003d28        0xa CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d28                __wrap___aeabi_dcmpgt
+                0x0000000010003d3c        0xa CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003d3c                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x0000000010003d32       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d32                __wrap___aeabi_dcmpun
- *fill*         0x0000000010003d4e        0x2 
+                0x0000000010003d46       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003d46                __wrap___aeabi_dcmpun
+ *fill*         0x0000000010003d62        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010003d50       0x38 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d50                __wrap___aeabi_ui2d
-                0x0000000010003d58                __wrap___aeabi_i2d
+                0x0000000010003d64       0x38 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003d64                __wrap___aeabi_ui2d
+                0x0000000010003d6c                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010003d88       0x48 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d88                __wrap___aeabi_d2iz
-                0x0000000010003d88                double2int_z
+                0x0000000010003d9c       0x48 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003d9c                __wrap___aeabi_d2iz
+                0x0000000010003d9c                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010003dd0       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003dd0                double2uint
-                0x0000000010003dd0                __wrap___aeabi_d2uiz
+                0x0000000010003de4       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003de4                double2uint
+                0x0000000010003de4                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x0000000010003de8       0x94 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010003de8                __aeabi_double_init
+                0x0000000010003dfc       0x94 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003dfc                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010003e7c       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003e7c                double_table_shim_on_use_helper
+                0x0000000010003e90       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003e90                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010003ea8       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003ea8                drsub_shim
-                0x0000000010003eae                dsub_shim
+                0x0000000010003ebc       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003ebc                drsub_shim
+                0x0000000010003ec2                dsub_shim
  .text.dadd_shim
-                0x0000000010003eb8      0x15c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003eb8                dadd_shim
+                0x0000000010003ecc      0x15c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003ecc                dadd_shim
  .text.dmul_shim
-                0x0000000010004014      0x15c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004014                dmul_shim
+                0x0000000010004028      0x15c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004028                dmul_shim
  .text.ddiv_shim
-                0x0000000010004170      0x1b0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004170                ddiv_shim
+                0x0000000010004184      0x1b0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004184                ddiv_shim
  .text.double2uint_shim
-                0x0000000010004320        0xe CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004320                double2uint_shim
-                0x0000000010004322                double2ufix_shim
- *fill*         0x000000001000432e        0x2 
+                0x0000000010004334        0xe CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004334                double2uint_shim
+                0x0000000010004336                double2ufix_shim
+ *fill*         0x0000000010004342        0x2 
  .text.double2uint64_shim
-                0x0000000010004330       0x70 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004330                double2uint64_shim
-                0x0000000010004332                double2ufix64_shim
-                0x0000000010004352                d2fix_a
+                0x0000000010004344       0x70 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004344                double2uint64_shim
+                0x0000000010004346                double2ufix64_shim
+                0x0000000010004366                d2fix_a
  .text.dunpacks
-                0x00000000100043a0       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100043a0                dunpacks
+                0x00000000100043b4       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100043b4                dunpacks
  .text.__aeabi_lmul
-                0x00000000100043dc       0x32 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x00000000100043dc                __wrap___aeabi_lmul
- *fill*         0x000000001000440e        0x2 
+                0x00000000100043f0       0x32 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x00000000100043f0                __wrap___aeabi_lmul
+ *fill*         0x0000000010004422        0x2 
  .text.__aeabi_float_init
-                0x0000000010004410       0x64 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010004410                __aeabi_float_init
+                0x0000000010004424       0x64 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010004424                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010004474       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010004474                float_table_shim_on_use_helper
- .text          0x00000000100044a0       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100044a0                __aeabi_mem_init
- .text.memset   0x00000000100044b0        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100044b0                __wrap_memset
- .text.memcpy   0x00000000100044bc        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x00000000100044bc                __wrap___aeabi_memcpy
-                0x00000000100044bc                __wrap_memcpy
+                0x0000000010004488       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004488                float_table_shim_on_use_helper
+ .text          0x00000000100044b4       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100044b4                __aeabi_mem_init
+ .text.memset   0x00000000100044c4        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100044c4                __wrap_memset
+ .text.memcpy   0x00000000100044d0        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100044d0                __wrap___aeabi_memcpy
+                0x00000000100044d0                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x00000000100044c8       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100044dc       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x00000000100044d8       0xb4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100044ec       0xb4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x000000001000458c       0x64 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100045a0       0x64 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x00000000100045f0       0xfc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004604       0xfc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x00000000100046ec       0x98 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100046ec                __wrap_putchar
+                0x0000000010004700       0x98 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004700                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010004784       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004784                __wrap_puts
+                0x0000000010004798       0x3c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004798                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x00000000100047c0       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100047c0                stdio_set_driver_enabled
+                0x00000000100047d4       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100047d4                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x00000000100047f0       0xd8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100047f0                __wrap_vprintf
+                0x0000000010004804       0xd8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004804                __wrap_vprintf
  .text.__wrap_printf
-                0x00000000100048c8       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100048c8                __wrap_printf
+                0x00000000100048dc       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100048dc                __wrap_printf
  .text.stdio_init_all
-                0x00000000100048e0        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x00000000100048e0                stdio_init_all
+                0x00000000100048f4        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100048f4                stdio_init_all
  .text.resetd_init
-                0x00000000100048e8        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100048fc        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_reset
-                0x00000000100048ec        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004900        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_open
-                0x00000000100048f8       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000490c       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_xfer_cb
-                0x0000000010004920        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004934        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x0000000010004924       0x64 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004938       0x64 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x0000000010004988        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004988                usbd_app_driver_get_cb
+                0x000000001000499c        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x000000001000499c                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x0000000010004994       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004994                tud_cdc_line_coding_cb
+                0x00000000100049a8       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000100049a8                tud_cdc_line_coding_cb
  .text.stdio_usb_set_chars_available_callback
-                0x00000000100049c8       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x00000000100049c8                stdio_usb_set_chars_available_callback
- .text.usb_irq  0x00000000100049dc       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100049dc       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x00000000100049dc                stdio_usb_set_chars_available_callback
+ .text.usb_irq  0x00000000100049f0       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x00000000100049ec       0x54 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004a00       0x54 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_in_chars
-                0x0000000010004a40       0x90 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004a40                stdio_usb_in_chars
+                0x0000000010004a54       0x90 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004a54                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x0000000010004ad0      0x100 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004ae4      0x100 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x0000000010004bd0       0xa8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004be4       0xa8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.tud_cdc_rx_cb
-                0x0000000010004c78       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004c78                tud_cdc_rx_cb
+                0x0000000010004c8c       0x20 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004c8c                tud_cdc_rx_cb
  .text.stdio_usb_init
-                0x0000000010004c98       0xdc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004c98                stdio_usb_init
+                0x0000000010004cac       0xdc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004cac                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x0000000010004d74        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004d74                tud_descriptor_device_cb
+                0x0000000010004d88        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004d88                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x0000000010004d7c        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004d7c                tud_descriptor_configuration_cb
+                0x0000000010004d90        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004d90                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x0000000010004d84       0x74 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004d84                tud_descriptor_string_cb
+                0x0000000010004d98       0x74 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004d98                tud_descriptor_string_cb
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000010004df8       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010004e0c       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x0000000010004e08      0x1a8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000010004e08                pico_get_unique_board_id_string
+                0x0000000010004e1c      0x1a8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010004e1c                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x0000000010004fb0       0x40 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x0000000010004fb0                flash_get_unique_id
+                0x0000000010004fc4       0x40 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000010004fc4                flash_get_unique_id
  .text.dcd_int_enable
-                0x0000000010004ff0        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004ff0                dcd_int_enable
+                0x0000000010005004        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005004                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010004ffc       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010004ffc                dcd_set_address
+                0x0000000010005010       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005010                dcd_set_address
  .text.dcd_connect
-                0x0000000010005010       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005010                dcd_connect
+                0x0000000010005024       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005024                dcd_connect
  .text.dcd_init
-                0x0000000010005020       0x98 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005020                dcd_init
+                0x0000000010005034       0x98 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005034                dcd_init
  .text.dcd_edpt0_status_complete
-                0x00000000100050b8       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100050b8                dcd_edpt0_status_complete
+                0x00000000100050cc       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100050cc                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x00000000100050d4      0x108 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100050d4                dcd_edpt_open
+                0x00000000100050e8      0x108 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100050e8                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x00000000100051dc        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100051dc                dcd_edpt_close_all
+                0x00000000100051f0        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100051f0                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x00000000100051e4       0x24 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100051e4                dcd_edpt_xfer
+                0x00000000100051f8       0x24 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100051f8                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x0000000010005208       0x38 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005208                dcd_edpt_stall
+                0x000000001000521c       0x38 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000521c                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x0000000010005240       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005240                dcd_edpt_clear_stall
+                0x0000000010005254       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005254                dcd_edpt_clear_stall
  .text.rp2040_usb_init
-                0x0000000010005270       0x4c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005270                rp2040_usb_init
+                0x0000000010005284       0x4c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005284                rp2040_usb_init
  .text.hw_endpoint_xfer_start
-                0x00000000100052bc       0x50 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x00000000100052bc                hw_endpoint_xfer_start
+                0x00000000100052d0       0x50 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000100052d0                hw_endpoint_xfer_start
  .text.tud_mounted
-                0x000000001000530c       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000530c                tud_mounted
+                0x0000000010005320       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005320                tud_mounted
  .text.tud_suspended
-                0x000000001000531c       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000531c                tud_suspended
+                0x0000000010005330       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005330                tud_suspended
  .text.tud_inited
-                0x000000001000532c       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000532c                tud_inited
+                0x0000000010005340       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005340                tud_inited
  .text.tud_init
-                0x0000000010005340       0xe4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005340                tud_init
+                0x0000000010005354       0xe4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005354                tud_init
  .text.tud_task_ext
-                0x0000000010005424      0x854 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005424                tud_task_ext
+                0x0000000010005438      0x854 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005438                tud_task_ext
  .text.usbd_open_edpt_pair
-                0x0000000010005c78       0x9c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005c78                usbd_open_edpt_pair
+                0x0000000010005c8c       0x9c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005c8c                usbd_open_edpt_pair
  .text.usbd_defer_func
-                0x0000000010005d14       0x48 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005d14                usbd_defer_func
+                0x0000000010005d28       0x48 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005d28                usbd_defer_func
  .text.usbd_edpt_open
-                0x0000000010005d5c       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005d5c                usbd_edpt_open
+                0x0000000010005d70       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005d70                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x0000000010005d90       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005d90                usbd_edpt_claim
+                0x0000000010005da4       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005da4                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x0000000010005db8       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005db8                usbd_edpt_release
+                0x0000000010005dcc       0x28 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005dcc                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x0000000010005de0       0x4c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010005de0                usbd_edpt_xfer
+                0x0000000010005df4       0x4c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005df4                usbd_edpt_xfer
  .text.tud_control_status
-                0x0000000010005e2c       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005e2c                tud_control_status
+                0x0000000010005e40       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005e40                tud_control_status
  .text.tud_control_xfer
-                0x0000000010005e5c       0xbc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005e5c                tud_control_xfer
+                0x0000000010005e70       0xbc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005e70                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000010005f18       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005f18                usbd_control_reset
+                0x0000000010005f2c       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005f2c                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x0000000010005f2c        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005f2c                usbd_control_set_complete_callback
+                0x0000000010005f40        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005f40                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000010005f38       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005f38                usbd_control_set_request
+                0x0000000010005f4c       0x1c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005f4c                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x0000000010005f54       0xfc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010005f54                usbd_control_xfer_cb
+                0x0000000010005f68       0xfc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x0000000010005f68                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x0000000010006050       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006050                tud_cdc_n_connected
+                0x0000000010006064       0x30 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006064                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x0000000010006080       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006080                tud_cdc_n_available
+                0x0000000010006094       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006094                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x0000000010006098       0x70 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006098                tud_cdc_n_read
+                0x00000000100060ac       0x70 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100060ac                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010006108       0x78 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006108                tud_cdc_n_write_flush
+                0x000000001000611c       0x78 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000001000611c                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x0000000010006180       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006180                tud_cdc_n_write
+                0x0000000010006194       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006194                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x00000000100061b4       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100061b4                tud_cdc_n_write_available
+                0x00000000100061c8       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100061c8                tud_cdc_n_write_available
  .text.cdcd_init
-                0x00000000100061cc       0x7c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100061cc                cdcd_init
+                0x00000000100061e0       0x7c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100061e0                cdcd_init
  .text.cdcd_reset
-                0x0000000010006248       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006248                cdcd_reset
+                0x000000001000625c       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000001000625c                cdcd_reset
  .text.cdcd_open
-                0x0000000010006274       0xe8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006274                cdcd_open
+                0x0000000010006288       0xe8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006288                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x000000001000635c       0xe4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x000000001000635c                cdcd_control_xfer_cb
+                0x0000000010006370       0xe4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006370                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x0000000010006440      0x148 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006440                cdcd_xfer_cb
+                0x0000000010006454      0x148 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006454                cdcd_xfer_cb
  .text.tusb_init
-                0x0000000010006588        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006588                tusb_init
+                0x000000001000659c        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x000000001000659c                tusb_init
  .text.tusb_inited
-                0x0000000010006594        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006594                tusb_inited
+                0x00000000100065a8        0x8 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100065a8                tusb_inited
  .text.tu_edpt_claim
-                0x000000001000659c       0x50 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x000000001000659c                tu_edpt_claim
+                0x00000000100065b0       0x50 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100065b0                tu_edpt_claim
  .text.tu_edpt_release
-                0x00000000100065ec       0x38 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x00000000100065ec                tu_edpt_release
+                0x0000000010006600       0x38 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006600                tu_edpt_release
  .text.tu_edpt_validate
-                0x0000000010006624       0x78 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006624                tu_edpt_validate
+                0x0000000010006638       0x78 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006638                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x000000001000669c       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x000000001000669c                tu_edpt_bind_driver
+                0x00000000100066b0       0x34 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x00000000100066b0                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x00000000100066d0       0x70 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100066d0                tu_fifo_config
+                0x00000000100066e4       0x70 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100066e4                tu_fifo_config
  .text.tu_fifo_count
-                0x0000000010006740       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006740                tu_fifo_count
+                0x0000000010006754       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006754                tu_fifo_count
  .text.tu_fifo_empty
-                0x000000001000676c       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000676c                tu_fifo_empty
+                0x0000000010006780       0x10 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006780                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x000000001000677c       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x000000001000677c                tu_fifo_remaining
+                0x0000000010006790       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006790                tu_fifo_remaining
  .text.tu_fifo_read
-                0x00000000100067a8       0xa0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100067a8                tu_fifo_read
+                0x00000000100067bc       0xa0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100067bc                tu_fifo_read
  .text.tu_fifo_read_n
-                0x0000000010006848       0xec CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006848                tu_fifo_read_n
+                0x000000001000685c       0xec CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000685c                tu_fifo_read_n
  .text.tu_fifo_write
-                0x0000000010006934       0x88 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006934                tu_fifo_write
+                0x0000000010006948       0x88 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006948                tu_fifo_write
  .text.tu_fifo_write_n
-                0x00000000100069bc      0x168 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100069bc                tu_fifo_write_n
+                0x00000000100069d0      0x168 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100069d0                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x0000000010006b24       0x40 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006b24                tu_fifo_clear
+                0x0000000010006b38       0x40 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006b38                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x0000000010006b64       0x48 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006b64                tu_fifo_set_overwritable
- .text          0x0000000010006bac       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-rand.o)
-                0x0000000010006bac                srand
-                0x0000000010006bc0                rand
- .text          0x0000000010006bf4       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x0000000010006bf4                strlen
- .text          0x0000000010006c50       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-time.o)
-                0x0000000010006c50                time
- .text          0x0000000010006c84       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gettimeofdayr.o)
-                0x0000000010006c84                _gettimeofday_r
+                0x0000000010006b78       0x48 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006b78                tu_fifo_set_overwritable
+ .text          0x0000000010006bc0       0x48 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-rand.o)
+                0x0000000010006bc0                srand
+                0x0000000010006bd4                rand
+ .text          0x0000000010006c08       0x5c /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010006c08                strlen
+ .text          0x0000000010006c64       0x34 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-time.o)
+                0x0000000010006c64                time
+ .text          0x0000000010006c98       0x28 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-gettimeofdayr.o)
+                0x0000000010006c98                _gettimeofday_r
  *(.fini)
- .fini          0x0000000010006cac        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0000000010006cac                _fini
- .fini.__stub   0x0000000010006cb0       0xd0 linker stubs
+ .fini          0x0000000010006cc0        0x4 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000010006cc0                _fini
+ *fill*         0x0000000010006cc4        0x4 
+ .fini.__stub   0x0000000010006cc8       0xd0 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2056,131 +2057,131 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010006d80        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010006d80                . = ALIGN (0x4)
+ .eh_frame      0x0000000010006d98        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010006d98                . = ALIGN (0x4)
 
-.glue_7         0x0000000010006d80        0x0
- .glue_7        0x0000000010006d80        0x0 linker stubs
+.glue_7         0x0000000010006d98        0x0
+ .glue_7        0x0000000010006d98        0x0 linker stubs
 
-.glue_7t        0x0000000010006d80        0x0
- .glue_7t       0x0000000010006d80        0x0 linker stubs
+.glue_7t        0x0000000010006d98        0x0
+ .glue_7t       0x0000000010006d98        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010006d80        0x0
- .vfp11_veneer  0x0000000010006d80        0x0 linker stubs
+.vfp11_veneer   0x0000000010006d98        0x0
+ .vfp11_veneer  0x0000000010006d98        0x0 linker stubs
 
-.v4_bx          0x0000000010006d80        0x0
- .v4_bx         0x0000000010006d80        0x0 linker stubs
+.v4_bx          0x0000000010006d98        0x0
+ .v4_bx         0x0000000010006d98        0x0 linker stubs
 
-.iplt           0x0000000010006d80        0x0
- .iplt          0x0000000010006d80        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010006d98        0x0
+ .iplt          0x0000000010006d98        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010006d80      0x580
+.rodata         0x0000000010006d98      0x590
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x0000000010006d80       0x41 CMakeFiles/reflex_game.dir/reflex_game.c.obj
- *fill*         0x0000000010006dc1        0x3 
+                0x0000000010006d98       0x51 CMakeFiles/reflex_game.dir/reflex_game.c.obj
+ *fill*         0x0000000010006de9        0x3 
  .rodata.BUTTON_PINS
-                0x0000000010006dc4       0x10 CMakeFiles/reflex_game.dir/reflex_game.c.obj
-                0x0000000010006dc4                BUTTON_PINS
+                0x0000000010006dec       0x10 CMakeFiles/reflex_game.dir/reflex_game.c.obj
+                0x0000000010006dec                BUTTON_PINS
  .rodata.LED_PINS
-                0x0000000010006dd4       0x10 CMakeFiles/reflex_game.dir/reflex_game.c.obj
-                0x0000000010006dd4                LED_PINS
+                0x0000000010006dfc       0x10 CMakeFiles/reflex_game.dir/reflex_game.c.obj
+                0x0000000010006dfc                LED_PINS
  .rodata.spin_lock_claim_unused.str1.4
-                0x0000000010006de4       0x1b CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x0000000010006dff        0x1 
+                0x0000000010006e0c       0x1b CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x0000000010006e27        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x0000000010006e00       0x1b CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x0000000010006e1b        0x1 
+                0x0000000010006e28       0x1b CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x0000000010006e43        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010006e1c       0x22 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010006e3e        0x2 
+                0x0000000010006e44       0x22 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010006e66        0x2 
  .rodata.panic.str1.4
-                0x0000000010006e40       0x12 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010006e52        0x2 
+                0x0000000010006e68       0x12 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010006e7a        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010006e54        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010006e7c        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x0000000010006e60       0x15 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x0000000010006e75        0x3 
+                0x0000000010006e88       0x15 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010006e9d        0x3 
  .rodata._vsnprintf
-                0x0000000010006e78      0x1e0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010006ea0      0x1e0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.pow10.0
-                0x0000000010007058       0x50 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010007080       0x50 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x00000000100070a8       0x40 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x00000000100070d0       0x40 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x00000000100070e8        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007110        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x00000000100070f4        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000711c        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010007100        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007128        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x000000001000710c        0x2 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x000000001000710e        0x2 
+                0x0000000010007134        0x2 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010007136        0x2 
  .rodata._resetd_driver
-                0x0000000010007110       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010007138       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x0000000010007128       0x13 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x000000001000713b        0x1 
+                0x0000000010007150       0x13 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x0000000010007163        0x1 
  .rodata.__bi_182.0
-                0x000000001000713c        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010007164        0xc CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x0000000010007148       0x2a CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010007172        0x2 
+                0x0000000010007170       0x2a CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000001000719a        0x2 
  .rodata.usbd_desc_cfg
-                0x0000000010007174       0x54 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x000000001000719c       0x54 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x00000000100071c8       0x12 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x00000000100071da        0x2 
+                0x00000000100071f0       0x12 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x0000000010007202        0x2 
  .rodata.usbd_desc_str
-                0x00000000100071dc       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010007204       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.str1.4
-                0x00000000100071f4       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000721c       0x14 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata.str1.4
-                0x0000000010007208       0x53 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x000000001000725b        0x1 
+                0x0000000010007230       0x53 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010007283        0x1 
  .rodata.tud_task_ext
-                0x000000001000725c       0x8c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007284       0x8c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x00000000100072e8       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010007300                . = ALIGN (0x4)
+                0x0000000010007310       0x18 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010007328                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010007300                . = ALIGN (0x4)
+                0x0000000010007328                . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010007300                __exidx_start = .
+                0x0000000010007328                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010007300                __exidx_end = .
-                0x0000000010007300                . = ALIGN (0x4)
-                0x0000000010007300                __binary_info_start = .
+                0x0000000010007328                __exidx_end = .
+                0x0000000010007328                . = ALIGN (0x4)
+                0x0000000010007328                __binary_info_start = .
 
-.binary_info    0x0000000010007300       0x20
+.binary_info    0x0000000010007328       0x20
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010007300        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007328        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010007304        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000732c        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010007308        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007330        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x000000001000730c        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007334        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010007310        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007338        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010007314        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x000000001000733c        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010007318        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010007340        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr182
-                0x000000001000731c        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010007320                __binary_info_end = .
+                0x0000000010007344        0x4 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010007348                __binary_info_end = .
 
-.rel.dyn        0x0000000010007320        0x0
- .rel.iplt      0x0000000010007320        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010007320                . = ALIGN (0x4)
+.rel.dyn        0x0000000010007348        0x0
+ .rel.iplt      0x0000000010007348        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010007348                . = ALIGN (0x4)
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2189,7 +2190,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
                 0x0000000020000000       0xc0 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0     0x1280 load address 0x0000000010007320
+.data           0x00000000200000c0     0x1280 load address 0x0000000010007348
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2325,36 +2326,36 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.jcr)
                 0x0000000020001340                . = ALIGN (0x4)
                 0x0000000020001340                __data_end__ = .
-                0x0000000010007320                __etext = LOADADDR (.data)
+                0x0000000010007348                __etext = LOADADDR (.data)
 
 .tm_clone_table
-                0x0000000020001340        0x0 load address 0x00000000100085a0
+                0x0000000020001340        0x0 load address 0x00000000100085c8
  .tm_clone_table
                 0x0000000020001340        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x0000000020001340        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020001340        0x0 load address 0x00000000100085a0
+.igot.plt       0x0000000020001340        0x0 load address 0x00000000100085c8
  .igot.plt      0x0000000020001340        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020001340        0x0 load address 0x00000000100085a0
+                0x0000000020001340        0x0 load address 0x00000000100085c8
                 0x0000000020001340                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x00000000100085a0
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100085c8
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x00000000100085a0                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100085c8                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x00000000100085a0
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100085c8
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x00000000100085a0                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100085c8                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020001340      0xd94
                 0x0000000020001340                . = ALIGN (0x4)
@@ -2477,8 +2478,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x00000000100085a0        0x0
-                0x00000000100085a0                PROVIDE (__flash_binary_end = .)
+.flash_end      0x00000000100085c8        0x0
+                0x00000000100085c8                PROVIDE (__flash_binary_end = .)
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2557,7 +2558,7 @@ LOAD CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/portable/rasp
 LOAD CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/tusb.c.obj
 LOAD CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 LOAD CMakeFiles/reflex_game.dir/home/toto/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
-LOAD /tmp/ccqpXvJf.o
+LOAD /tmp/cc7H8KYF.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2671,7 +2672,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000077c       0x2c CMakeFiles/reflex_game.dir/home/toto/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000000000007a8       0x22 /tmp/ccqpXvJf.o
+                0x00000000000007a8       0x22 /tmp/cc7H8KYF.o
  .ARM.attributes
                 0x00000000000007ca       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
