@@ -42,6 +42,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/toto/ying/tutorials/build/pico-sdk/cmake_install.cmake")
   include("/home/toto/ying/tutorials/build/button_test/cmake_install.cmake")
   include("/home/toto/ying/tutorials/build/analog_io/cmake_install.cmake")
+  include("/home/toto/ying/tutorials/build/timer_tutorial/cmake_install.cmake")
 
 endif()
 

@@ -174,3 +174,6 @@
 /home/toto/ying/tutorials/build/analog_io/CMakeFiles/analog_io.dir
 /home/toto/ying/tutorials/build/analog_io/CMakeFiles/edit_cache.dir
 /home/toto/ying/tutorials/build/analog_io/CMakeFiles/rebuild_cache.dir
+/home/toto/ying/tutorials/build/timer_tutorial/CMakeFiles/timer_tutorial.dir
+/home/toto/ying/tutorials/build/timer_tutorial/CMakeFiles/edit_cache.dir
+/home/toto/ying/tutorials/build/timer_tutorial/CMakeFiles/rebuild_cache.dir

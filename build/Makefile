@@ -246,6 +246,19 @@ analog_io/fast:
 	$(MAKE) $(MAKESILENT) -f analog_io/CMakeFiles/analog_io.dir/build.make analog_io/CMakeFiles/analog_io.dir/build
 .PHONY : analog_io/fast
 
+#=============================================================================
+# Target rules for targets named timer_tutorial
+
+# Build rule for target.
+timer_tutorial: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 timer_tutorial
+.PHONY : timer_tutorial
+
+# fast build rule for target.
+timer_tutorial/fast:
+	$(MAKE) $(MAKESILENT) -f timer_tutorial/CMakeFiles/timer_tutorial.dir/build.make timer_tutorial/CMakeFiles/timer_tutorial.dir/build
+.PHONY : timer_tutorial/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -264,6 +277,7 @@ help:
 	@echo "... analog_io"
 	@echo "... bs2_default"
 	@echo "... button_test"
+	@echo "... timer_tutorial"
 .PHONY : help
 
 

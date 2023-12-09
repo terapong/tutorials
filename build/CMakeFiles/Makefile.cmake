@@ -120,6 +120,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "pico-sdk/src/rp2_common/tinyusb/pioasm/tmp/PioasmBuild-cfgcmd.txt.in"
   "../button_test/CMakeLists.txt"
   "../pico_sdk_import.cmake"
+  "../timer_tutorial/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
   "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
@@ -238,6 +239,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "button_test/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt"
   "button_test/CMakeFiles/CMakeDirectoryInformation.cmake"
   "analog_io/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "timer_tutorial/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -252,4 +254,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "button_test/CMakeFiles/button_test.dir/DependInfo.cmake"
   "button_test/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake"
   "analog_io/CMakeFiles/analog_io.dir/DependInfo.cmake"
+  "timer_tutorial/CMakeFiles/timer_tutorial.dir/DependInfo.cmake"
   )
