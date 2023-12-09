@@ -44,6 +44,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/toto/ying/tutorials/build/analog_io/cmake_install.cmake")
   include("/home/toto/ying/tutorials/build/timer_tutorial/cmake_install.cmake")
   include("/home/toto/ying/tutorials/build/reflex_game/cmake_install.cmake")
+  include("/home/toto/ying/tutorials/build/reflex_game_adaptive/cmake_install.cmake")
 
 endif()
 

@@ -180,3 +180,6 @@
 /home/toto/ying/tutorials/build/reflex_game/CMakeFiles/reflex_game.dir
 /home/toto/ying/tutorials/build/reflex_game/CMakeFiles/edit_cache.dir
 /home/toto/ying/tutorials/build/reflex_game/CMakeFiles/rebuild_cache.dir
+/home/toto/ying/tutorials/build/reflex_game_adaptive/CMakeFiles/reflex_game_adaptive.dir
+/home/toto/ying/tutorials/build/reflex_game_adaptive/CMakeFiles/edit_cache.dir
+/home/toto/ying/tutorials/build/reflex_game_adaptive/CMakeFiles/rebuild_cache.dir
