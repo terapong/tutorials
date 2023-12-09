@@ -40,7 +40,7 @@ int main() {
         bool button_pressed = false;
         gpio_put(LED_PINS[led_index], 0);
         led_index = rand() % 4;
-        printf("Firing LED %d\n", led_index);
+        //printf("Firing LED %d\n", led_index);
         gpio_put(LED_PINS[led_index], 1);
 
         while (!timer_fired) {
@@ -61,7 +61,7 @@ int main() {
             score = 0;
         }
         
-        printf("You score is %d", score);
+        printf("You score is %d\n", score);
 
         while(!timer_fired) {
             tight_loop_contents();
