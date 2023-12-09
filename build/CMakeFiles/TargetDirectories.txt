@@ -177,3 +177,6 @@
 /home/toto/ying/tutorials/build/timer_tutorial/CMakeFiles/timer_tutorial.dir
 /home/toto/ying/tutorials/build/timer_tutorial/CMakeFiles/edit_cache.dir
 /home/toto/ying/tutorials/build/timer_tutorial/CMakeFiles/rebuild_cache.dir
+/home/toto/ying/tutorials/build/reflex_game/CMakeFiles/reflex_game.dir
+/home/toto/ying/tutorials/build/reflex_game/CMakeFiles/edit_cache.dir
+/home/toto/ying/tutorials/build/reflex_game/CMakeFiles/rebuild_cache.dir

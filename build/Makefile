@@ -259,6 +259,19 @@ timer_tutorial/fast:
 	$(MAKE) $(MAKESILENT) -f timer_tutorial/CMakeFiles/timer_tutorial.dir/build.make timer_tutorial/CMakeFiles/timer_tutorial.dir/build
 .PHONY : timer_tutorial/fast
 
+#=============================================================================
+# Target rules for targets named reflex_game
+
+# Build rule for target.
+reflex_game: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 reflex_game
+.PHONY : reflex_game
+
+# fast build rule for target.
+reflex_game/fast:
+	$(MAKE) $(MAKESILENT) -f reflex_game/CMakeFiles/reflex_game.dir/build.make reflex_game/CMakeFiles/reflex_game.dir/build
+.PHONY : reflex_game/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -277,6 +290,7 @@ help:
 	@echo "... analog_io"
 	@echo "... bs2_default"
 	@echo "... button_test"
+	@echo "... reflex_game"
 	@echo "... timer_tutorial"
 .PHONY : help
 
